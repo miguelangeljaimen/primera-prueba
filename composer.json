@@ -1,0 +1,16 @@
+{
+    "name": "bla/primera-prueba",
+    "description": "prueba composer",
+    "authors": [
+        {
+            "name": "miguelangel",
+            "email": "miguelangel.jaimen@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4":{
+    		"bla\\hello\\": "src/"
+    	}
+    }
+}
